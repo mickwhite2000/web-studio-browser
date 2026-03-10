@@ -1,0 +1,15 @@
+doubleclick.net
+googlesyndication.com
+googleadservices.com
+googletagmanager.com
+adservice.google.com
+googletagservices.com
+taboola.com
+outbrain.com
+scorecardresearch.com
+facebook.net
+connect.facebook.net
+adsystem.com
+amazon-adsystem.com
+criteo.com
+criteo.net

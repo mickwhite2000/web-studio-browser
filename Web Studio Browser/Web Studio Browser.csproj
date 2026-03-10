@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<EnableWindowsTargeting>true</EnableWindowsTargeting>
+
+		<!-- EXE name -->
+		<AssemblyName>Web Studio Browser</AssemblyName>
+
+		<!-- Namespace -->
+		<RootNamespace>Lex_White_Browser</RootNamespace>
+
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<PublishReadyToRun>true</PublishReadyToRun>
+		<ReadyToRunUseCrossgen2>true</ReadyToRunUseCrossgen2>
+		<TieredCompilation>true</TieredCompilation>
+		<TieredPGO>true</TieredPGO>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3800.47" />
+		<PackageReference Include="System.Management" Version="10.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="Assets\adblock_hosts_starter.txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Assets\" />
+	</ItemGroup>
+
+</Project>
